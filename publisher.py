@@ -19,10 +19,10 @@ def create_client(username, password, broker_address, clientId="client", port=88
 def pub(client, topic, message):
     client.publish(topic, message)
 
-# vvv   your code starts here   vvv
+# ~~~   your code starts here   ~~~
 
 # Create client
-client = create_client("testPublisher1", "Htil2017", "ac468314de194d56906aa94b21f74655.s1.eu.hivemq.cloud")
+client = create_client("testPublisher1", "Htil2024ExamplePassword", "ac468314de194d56906aa94b21f74655.s1.eu.hivemq.cloud")
 
 # Publish a counter message every 0.01 seconds
 counter = 0
