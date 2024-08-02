@@ -27,7 +27,7 @@ def on_message(client, userdata, message):
     print(f"Received message {message.payload.decode()} on topic {message.topic}")
 
 # Create client
-client = create_client("testSubscriber1", "Htil2024ExamplePassword", "ac468314de194d56906aa94b21f74655.s1.eu.hivemq.cloud")
+client = create_client("testSubscriber1", "Htil2024ExamplePassword", "ac468314de194d56906aa94b21f74655.s1.eu.hivemq.cloud", clientId="190478540578485744058420230498765789")
 
 # Subscribe to a topic
 sub(client, "htil/test/topic")

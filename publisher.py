@@ -22,7 +22,7 @@ def pub(client, topic, message):
 # ~~~   your code starts here   ~~~
 
 # Create client
-client = create_client("testPublisher1", "Htil2024ExamplePassword", "ac468314de194d56906aa94b21f74655.s1.eu.hivemq.cloud")
+client = create_client("testPublisher1", "Htil2024ExamplePassword", "ac468314de194d56906aa94b21f74655.s1.eu.hivemq.cloud", clientId="58749023543475274795789764095")
 
 # Publish a counter message every 0.01 seconds
 counter = 0
